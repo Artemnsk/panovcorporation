@@ -1,0 +1,6 @@
+package Population;
+
+public class Population{
+	double[] elements;
+	double[] weights;
+}

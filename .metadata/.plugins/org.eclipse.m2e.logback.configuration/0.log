@@ -1,0 +1,766 @@
+2012-08-14 15:39:21,310 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:39:21,310 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:39:25,570 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:39:25,570 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:39:42,340 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:39:42,340 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:39:46,590 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:39:46,590 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:40:03,350 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:40:03,350 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:40:07,600 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:40:07,600 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:40:45,590 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:40:45,590 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:40:49,830 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:40:49,830 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:41:06,601 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:41:06,601 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:41:10,851 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:41:10,851 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:41:27,611 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:41:27,611 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:41:31,861 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:41:31,861 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:42:09,652 [Worker-3] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:42:09,652 [Worker-3] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:42:13,892 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:42:13,892 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:42:30,652 [Worker-3] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:42:30,652 [Worker-3] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:42:34,903 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:42:34,903 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:42:51,664 [Worker-3] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:42:51,664 [Worker-3] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:42:55,928 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:42:55,928 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:43:33,724 [Worker-9] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:43:33,724 [Worker-9] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:43:37,964 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:43:37,964 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:43:54,743 [Worker-9] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:43:54,743 [Worker-9] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:43:58,993 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:43:58,993 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:44:15,742 [Worker-9] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:44:15,742 [Worker-9] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:44:20,024 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:44:20,024 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:44:57,830 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:44:57,830 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:45:18,844 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:45:18,844 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:45:39,862 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:45:39,862 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:46:22,142 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:46:22,142 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:46:43,161 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:46:43,161 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:47:04,169 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:47:04,169 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:47:46,239 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:47:46,239 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:48:07,250 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:48:07,250 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:48:28,274 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:48:28,274 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:49:10,322 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:49:10,322 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:49:31,349 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:49:31,349 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:49:52,353 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:49:52,353 [Worker-1] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:50:34,436 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:50:34,436 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:50:34,436 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:50:34,436 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:50:55,470 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:50:55,470 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:50:55,485 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:50:55,485 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:51:16,487 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:51:16,487 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:51:16,502 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:51:16,502 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:51:58,694 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:51:58,694 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:51:58,744 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:51:58,744 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:52:19,728 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:52:19,728 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:52:19,758 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:52:19,758 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:52:40,749 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:52:40,749 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:52:40,789 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:52:40,789 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:53:22,817 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:53:22,817 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:53:22,837 [Worker-11] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:53:22,837 [Worker-11] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:53:43,836 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:53:43,836 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:53:43,856 [Worker-11] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:53:43,856 [Worker-11] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:54:04,866 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:54:04,866 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:54:04,886 [Worker-11] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:54:04,886 [Worker-11] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:54:46,931 [Worker-13] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:54:46,931 [Worker-13] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:54:46,961 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:54:46,961 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:55:07,932 [Worker-13] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:55:07,932 [Worker-13] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:55:07,992 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:55:07,992 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:55:28,952 [Worker-13] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:55:28,952 [Worker-13] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:55:29,015 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:55:29,015 [Worker-8] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:56:11,066 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:56:11,066 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:56:32,096 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:56:32,096 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:56:53,092 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:56:53,092 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:57:35,343 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:57:35,343 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:57:56,372 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:57:56,372 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:58:17,387 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:58:17,387 [Worker-0] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:58:59,494 [Worker-15] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:58:59,494 [Worker-15] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:59:20,541 [Worker-15] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:59:20,541 [Worker-15] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 15:59:41,571 [Worker-15] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 15:59:41,571 [Worker-15] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 16:00:23,636 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 16:00:23,636 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 16:00:44,677 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 16:00:44,677 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 16:01:05,707 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-14 16:01:05,707 [Worker-2] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-14 16:57:44,143 [Worker-26] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=C27AC13F1CEEEEFBF6FCC77DFAE3197B; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/p2.index"
+2012-08-14 16:57:44,653 [Worker-30] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=52CF4100F4D3CD9A9DF03F41DE81B883; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/content.jar"
+2012-08-14 16:57:45,013 [Worker-21] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=C79B5E502551603696017B5B9CC6DA49; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/content.xml"
+2012-08-14 16:57:45,393 [Worker-26] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=9500A3C15C74807BFC44803D79C96E59; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/content.xml"
+2012-08-14 16:57:56,515 [Worker-26] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=8A006B6478964CF4F75F1ED425FB03C5; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/p2.index"
+2012-08-14 16:57:56,885 [Worker-31] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=6ACF4D1DD0018B2CF453EEF77A710F1F; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/artifacts.jar"
+2012-08-14 16:57:57,225 [Worker-28] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=0DB623C1EC2541C4B86CFEED91AE4042; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/artifacts.xml"
+2012-08-14 16:57:57,575 [Worker-26] WARN  o.a.c.httpclient.HttpMethodBase - Cookie rejected: "$Version=0; JSESSIONID=A66DD7B1B1D863AF9DCA163B408EAC99; $Path=/servlets". Illegal path attribute "/servlets". Path of origin: "/update_site/artifacts.xml"
+2012-08-24 18:30:47,095 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-24 18:30:47,329 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-24 18:30:47,344 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@2c46a7ed: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.wiring.RecommendersModule$ServicesInitializer.<init>(RecommendersModule.java:353) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:72) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at org.eclipse.recommenders.injection.InjectionService.getInjector(InjectionService.java:47) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.injection.ExtensionFactory.<init>(ExtensionFactory.java:28) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_03]
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:308) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:275) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:418) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:379) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:117) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2221) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1696) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.access$6(ContentAssistant.java:1687) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:376) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86) [org.eclipse.e4.ui.workbench_0.10.2.v20120531-1742.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.400.v20120523-1955.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20120522-1841.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_03]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_03]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+2012-08-24 18:31:29,636 [Worker-37] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:pom:0.0.0'.
+2012-08-24 18:31:29,636 [Worker-37] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@6b08aca: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.repo.UpdateModelIndexJob.run(UpdateModelIndexJob.java:55) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+2012-08-24 18:59:05,075 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 18:59:05,075 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 18:59:26,135 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 18:59:26,135 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 18:59:47,151 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 18:59:47,151 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:00:29,459 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:00:29,459 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:00:50,485 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:00:50,485 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:01:11,514 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:01:11,514 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:01:40,437 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:01:40,437 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:01:43,884 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:01:43,884 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:02:01,466 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:02:01,466 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:02:04,929 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:02:04,929 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:02:22,479 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:02:22,479 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:02:25,958 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:02:25,958 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:03:04,740 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:03:04,740 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:03:08,250 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:03:08,250 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:03:25,769 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:03:25,769 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:03:29,279 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:03:29,279 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:03:46,800 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:03:46,800 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:03:50,310 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:03:50,310 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:04:28,905 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:04:28,905 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:04:32,399 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:04:32,399 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:04:49,950 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:04:49,950 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:04:53,444 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:04:53,444 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:05:10,994 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:05:10,994 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:05:14,473 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:05:14,473 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:05:53,084 [Worker-51] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:05:53,084 [Worker-51] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:05:56,563 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:05:56,563 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:06:14,128 [Worker-51] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:06:14,128 [Worker-51] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:06:17,576 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:06:17,576 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:06:35,157 [Worker-51] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:06:35,157 [Worker-51] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:06:38,605 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:06:38,605 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:07:17,247 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:07:17,247 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:07:20,679 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:07:20,679 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:07:38,276 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:07:38,276 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:07:41,724 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:07:41,724 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:07:59,305 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:07:59,305 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:08:02,768 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:08:02,768 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:08:41,597 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:08:41,597 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:08:45,045 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:08:45,045 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:09:02,611 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:09:02,611 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:09:06,074 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:09:06,074 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:09:23,671 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:09:23,671 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:09:27,103 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:09:27,103 [Worker-46] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:10:05,777 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:10:05,777 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:10:09,194 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:10:09,194 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:10:26,806 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:10:26,806 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:10:30,238 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:10:30,238 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:10:47,836 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:10:47,836 [Worker-50] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:10:51,272 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:10:51,272 [Worker-49] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:11:29,930 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:11:29,930 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:11:33,362 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:11:33,362 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:11:50,959 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:11:50,959 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:11:54,376 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:11:54,376 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:12:12,006 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:12:12,006 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:12:15,407 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:12:15,407 [Worker-48] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:12:54,080 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:12:54,080 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:13:15,093 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:13:15,093 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:13:36,122 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:13:36,122 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:14:18,430 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:14:18,430 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:14:39,459 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:14:39,459 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:15:00,500 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:15:00,500 [Worker-39] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:15:42,584 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:15:42,584 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:16:03,598 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:16:03,598 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:16:24,645 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:16:24,645 [Worker-41] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:17:06,737 [Worker-54] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:17:06,737 [Worker-54] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:17:27,767 [Worker-54] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:17:27,767 [Worker-54] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-24 19:17:48,814 [Worker-54] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-24 19:17:48,814 [Worker-54] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-25 00:51:59,887 [Worker-59] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (java.net.ConnectException) caught when processing request: Connection timed out: connect
+2012-08-25 00:51:59,887 [Worker-59] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-25 00:53:02,771 [Worker-59] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server www.mirrorservice.org failed to respond
+2012-08-25 00:53:02,771 [Worker-59] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-25 00:53:07,701 [Worker-56] INFO  o.a.c.httpclient.HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server www.mirrorservice.org failed to respond
+2012-08-25 00:53:07,701 [Worker-56] INFO  o.a.c.httpclient.HttpMethodDirector - Retrying request
+2012-08-27 15:13:35,641 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-27 15:13:35,875 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-27 15:13:35,906 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4c997f45: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.wiring.RecommendersModule$ServicesInitializer.<init>(RecommendersModule.java:353) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:72) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at org.eclipse.recommenders.injection.InjectionService.getInjector(InjectionService.java:47) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.injection.ExtensionFactory.<init>(ExtensionFactory.java:28) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_03]
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:308) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:275) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:418) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:379) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:117) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2221) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1696) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.access$6(ContentAssistant.java:1687) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:376) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86) [org.eclipse.e4.ui.workbench_0.10.2.v20120531-1742.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.400.v20120523-1955.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20120522-1841.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_03]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_03]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+2012-08-27 15:14:18,121 [Worker-189] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:pom:0.0.0'.
+2012-08-27 15:14:18,121 [Worker-189] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@19a1b6b1: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.repo.UpdateModelIndexJob.run(UpdateModelIndexJob.java:55) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+2012-08-28 17:36:46,032 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-28 17:36:46,391 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5a0711e: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.wiring.RecommendersModule$ServicesInitializer.<init>(RecommendersModule.java:353) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:72) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at org.eclipse.recommenders.injection.InjectionService.getInjector(InjectionService.java:47) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.injection.ExtensionFactory.<init>(ExtensionFactory.java:28) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_03]
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:308) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:275) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:418) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:379) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:117) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2221) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1696) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.access$6(ContentAssistant.java:1687) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:376) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86) [org.eclipse.e4.ui.workbench_0.10.2.v20120531-1742.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.400.v20120523-1955.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20120522-1841.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_03]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_03]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+2012-08-28 17:36:46,396 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-28 17:37:28,960 [Worker-9] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:pom:0.0.0'.
+2012-08-28 17:37:28,965 [Worker-9] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@50cb6aa1: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.repo.UpdateModelIndexJob.run(UpdateModelIndexJob.java:55) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+2012-08-30 15:03:01,720 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-30 15:03:02,023 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-30 15:03:02,044 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@5a94c9a3: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.wiring.RecommendersModule$ServicesInitializer.<init>(RecommendersModule.java:353) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:72) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at org.eclipse.recommenders.injection.InjectionService.getInjector(InjectionService.java:47) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.injection.ExtensionFactory.<init>(ExtensionFactory.java:28) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_03]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_03]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_03]
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:308) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:275) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:418) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:379) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:117) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2221) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1696) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1661) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:183) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.ui.texteditor.ContentAssistAction$1.run(ContentAssistAction.java:82) [org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar:na]
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:80) [org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar:na]
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:237) [org.eclipse.ui.workbench.texteditor_3.8.0.v20120523-1310.jar:na]
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498) [org.eclipse.jface_3.8.0.v20120521-2329.jar:na]
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:119) [org.eclipse.jface_3.8.0.v20120521-2329.jar:na]
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:76) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at sun.reflect.GeneratedMethodAccessor46.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_03]
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56) [org.eclipse.e4.core.di_1.1.0.v20120521-2346.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:229) [org.eclipse.e4.core.di_1.1.0.v20120521-2346.jar:na]
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:210) [org.eclipse.e4.core.di_1.1.0.v20120521-2346.jar:na]
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131) [org.eclipse.e4.core.contexts_1.1.0.v20120523-2004.jar:na]
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171) [org.eclipse.e4.core.commands_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:276) [org.eclipse.e4.ui.bindings_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:494) [org.eclipse.e4.ui.bindings_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:545) [org.eclipse.e4.ui.bindings_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:366) [org.eclipse.e4.ui.bindings_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:313) [org.eclipse.e4.ui.bindings_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:82) [org.eclipse.e4.ui.bindings_0.10.1.v20120523-1955.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756) [org.eclipse.swt.win32.win32.x86_64_3.100.0.v4233d.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86) [org.eclipse.e4.ui.workbench_0.10.2.v20120531-1742.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.400.v20120523-1955.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20120522-1841.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_03]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_03]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_03]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+2012-08-30 15:03:44,217 [Worker-8] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:pom:0.0.0'.
+2012-08-30 15:03:44,222 [Worker-8] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.MMapDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7eeb02ab: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.repo.UpdateModelIndexJob.run(UpdateModelIndexJob.java:55) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
+2012-08-31 17:16:21,224 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-31 17:16:21,583 [pool-5-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-08-31 17:16:21,645 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.SimpleFSDirectory@D:\Пользователи\ALX\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1590cb4: files: []
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
+	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.internal.rcp.wiring.RecommendersModule$ServicesInitializer.<init>(RecommendersModule.java:353) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_06]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_06]
+	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:46) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1031) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Scopes$1$1.get(Scopes.java:65) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:40) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:204) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator$1.call(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1024) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:198) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:179) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:109) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:95) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at com.google.inject.Guice.createInjector(Guice.java:72) [com.google.inject_3.0.0.v201203062045.jar:na]
+	at org.eclipse.recommenders.injection.InjectionService.getInjector(InjectionService.java:47) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at org.eclipse.recommenders.injection.ExtensionFactory.<init>(ExtensionFactory.java:28) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_06]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_06]
+	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_06]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_06]
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.createComputer(CompletionProposalComputerDescriptor.java:308) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.getComputer(CompletionProposalComputerDescriptor.java:275) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.sessionStarted(CompletionProposalComputerDescriptor.java:418) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.sessionStarted(CompletionProposalCategory.java:379) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor$CompletionListener.assistSessionStarted(ContentAssistProcessor.java:117) [org.eclipse.jdt.ui_3.8.0.v20120524-1551.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.fireSessionBeginEvent(ContentAssistant.java:2221) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.prepareToShowCompletions(ContentAssistant.java:1696) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant.access$6(ContentAssistant.java:1687) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:376) [org.eclipse.jface.text_3.8.0.v20120531-0600.jar:na]
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35) [org.eclipse.swt.win32.win32.x86_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135) [org.eclipse.swt.win32.win32.x86_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4144) [org.eclipse.swt.win32.win32.x86_3.100.0.v4233d.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761) [org.eclipse.swt.win32.win32.x86_3.100.0.v4233d.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1022) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:916) [org.eclipse.e4.ui.workbench.swt_0.10.1.v20120525-2014.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86) [org.eclipse.e4.ui.workbench_0.10.2.v20120531-1742.jar:na]
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:585) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332) [org.eclipse.core.databinding.observable_1.4.1.v20120521-2329.jar:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:540) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149) [org.eclipse.ui.workbench_3.103.0.v20120530-1824.jar:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124) [org.eclipse.ui.ide.application_1.0.400.v20120523-1955.jar:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196) [org.eclipse.equinox.app_1.3.100.v20120522-1841.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_06]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_06]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_06]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_06]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
+2012-08-31 17:16:23,169 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-09-02 12:32:16,783 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-09-03 22:27:26,246 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2012-09-18 18:43:59,103 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-09-26 23:09:29,307 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-09-26 23:09:30,056 [Worker-6] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
+2012-09-26 23:09:31,148 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-09-26 23:09:31,195 [Worker-6] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
+2012-10-01 12:13:18,298 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-01 12:13:20,741 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-01 12:36:02,818 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-01 12:36:04,094 [pool-10-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-01 12:36:05,158 [pool-12-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-06 13:11:39,225 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-06 18:25:07,323 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-21 01:09:12,164 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-27 14:17:49,278 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-27 15:02:34,383 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2012-10-28 12:05:22,801 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4

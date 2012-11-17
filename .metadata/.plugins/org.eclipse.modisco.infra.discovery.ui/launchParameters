@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:launch="http://www.eclipse.org/MoDisco/Discovery/0.1.incubation/discovery/launch">
+  <launch:LaunchConfiguration source="org.eclipse.core.resources.IResource:/GOptimum/src/algorithms" openModelAfterDiscovery="true">
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#REFRESH_SOURCE_BEFORE"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#TARGET_MODEL"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#SERIALIZE_TARGET"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#TARGET_URI"/>
+    </parameterValues>
+    <discoverer href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#org.eclipse.modisco.jee.jsp.discoverer.javaElement"/>
+  </launch:LaunchConfiguration>
+  <launch:LaunchConfiguration source="org.eclipse.core.resources.IResource:/GOptimum/src/algorithms" openModelAfterDiscovery="true">
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#REFRESH_SOURCE_BEFORE"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#TARGET_MODEL"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#TARGET_URI"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#SERIALIZE_TARGET"/>
+    </parameterValues>
+    <discoverer href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#org.eclipse.modisco.kdm.source.discoverer.javaElement"/>
+  </launch:LaunchConfiguration>
+  <launch:LaunchConfiguration source="org.eclipse.core.resources.IResource:/GOptimum">
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#TARGET_URI"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#REFRESH_SOURCE_BEFORE"/>
+    </parameterValues>
+    <parameterValues>
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#TARGET_MODEL"/>
+    </parameterValues>
+    <parameterValues value="java.lang.Boolean:true">
+      <parameter href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#SERIALIZE_TARGET"/>
+    </parameterValues>
+    <discoverer href="platform:/meta/org.eclipse.modisco.infra.discovery.core/discoverersCatalog.xmi#org.eclipse.modisco.java.discoverer.javaProjectToKDM"/>
+  </launch:LaunchConfiguration>
+</xmi:XMI>

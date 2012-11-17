@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jre7\bin\java.exe" -cp junit-4.10.jar;bin;../ia_math; org.junit.runner.JUnitCore solvers.performance.StdPerformance

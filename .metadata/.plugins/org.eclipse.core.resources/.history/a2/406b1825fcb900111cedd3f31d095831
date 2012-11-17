@@ -1,0 +1,14 @@
+package constraint;
+
+import net.sourceforge.interval.ia_math.RealInterval;
+
+public class EqualConstraint extends Constraint {
+
+	@Override
+	protected boolean applayValues(RealInterval l, RealInterval r)
+			throws RepugnantConditionException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

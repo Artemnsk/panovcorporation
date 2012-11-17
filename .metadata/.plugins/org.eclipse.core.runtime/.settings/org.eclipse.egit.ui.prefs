@@ -1,0 +1,11 @@
+BranchProjectTracker__C\:\\eclipse_workspace\\GOptimum\\.git_Constraint=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="Constraint">\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\eclipse_workspace\\GOptimum\\.git_Constraints=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="Constraints">\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\eclipse_workspace\\GOptimum\\.git_GA=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="GA">\r\n<project>/</project>\r\n</projects>
+BranchProjectTracker__C\:\\eclipse_workspace\\GOptimum\\.git_Nuton=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="Nuton"/>
+BranchProjectTracker__C\:\\eclipse_workspace\\GOptimum\\.git_Viewver=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="Viewver"/>
+BranchProjectTracker__C\:\\eclipse_workspace\\GOptimum\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="master">\r\n<project>/</project>\r\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>exception</message>\r\n<message>add testRemoveRejectedBoxes()</message>\r\n<message>fixed parallel tests</message>\r\n<message>Minor</message>\r\n<message>Screener -&gt; Rejector + number of other changes.</message>\r\n<message>removeRejectedBoxes() </message>\r\n<message>Screener died, Rejector came.</message>\r\n<message>HUGE improvement in parallel algorithms correctness. </message>\r\n<message>Minor\: assert removed\: derivatives CAN be NULL.</message>\r\n<message>Minor\: epsilon constant value in cutOutBoxAroundThisPoint changed</message>\r\n</messages>
+eclipse.preferences.version=1
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
+show_home_drive_warning=false

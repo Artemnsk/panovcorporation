@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="splitters.BiggestSideEquallySplitter"/>
+<fullyQualifiedTypeName name="worklists.GeneticFitComparator"/>
+<fullyQualifiedTypeName name="solvers.IntervalGeneticSolver"/>
+<fullyQualifiedTypeName name="worklists.AscendingLowBoundBoxComparator"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="Myvector.Myvector"/>
+<fullyQualifiedTypeName name="Population.Population"/>
+</qualifiedTypeNameHistroy>

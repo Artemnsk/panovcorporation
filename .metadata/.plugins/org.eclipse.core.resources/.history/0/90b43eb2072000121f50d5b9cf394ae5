@@ -1,0 +1,7 @@
+package Myvector;
+
+public class Myvector {
+	public void normalize(double[] vector){
+		
+	}
+}

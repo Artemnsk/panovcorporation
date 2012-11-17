@@ -1,0 +1,51 @@
+package Population;
+
+import java.util.Vector;
+import Myvector.Myvector;
+
+public class Population{
+	public double[][] elements;
+	public double[] weights;
+	int quantity;
+	public int current;
+	
+	public Population(int i_quantity){
+		quantity = i_quantity;
+		current = 0;
+		elements = new double[quantity][3];
+		weights = new double[quantity];
+		for(int i = 0; i < quantity; i++){
+			for(int j = 0; j < 3; j++){
+				elements[i][j] = Math.random();
+			}
+			elements[i] = Myvector.normalize(elements[i]);
+			//to make algorithm observe all the vectors at first
+			weights[i] = 1;
+		}
+
+	}
+	
+	public double[] getBest(){
+		int best_i = 0;
+		for(int i = 0; i < this.quantity; i++){
+			best_i = this.weights[i] > this.weights[best_i] ? i : best_i;
+		}
+		this.current = best_i;
+		return this.elements[best_i];
+	}
+	
+	public double[] getWorst(){
+		int worst_i = 0;
+		for(int i = 0; i < this.quantity; i++){
+			worst_i = this.weights[i] < this.weights[worst_i] ? i : worst_i;
+		}
+		this.current = worst_i;
+		return this.elements[worst_i];
+	}
+	
+	public double[] getRandom(){
+		int i = (int)(Math.floor(Math.random()*this.quantity));
+		return this.elements[i];
+	}
+
+}

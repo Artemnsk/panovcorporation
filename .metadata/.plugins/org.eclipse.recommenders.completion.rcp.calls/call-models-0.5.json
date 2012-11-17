@@ -1,0 +1,28 @@
+{
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "No call model found for \u0027C:\\Program Files\\Java\\jre7\\lib\\rt.jar\u0027. Neither fingerprint \u00277c88966400c457b10c96259d13a27e407da16b48\u0027 nor symbolic name \u0027jre\u0027 are known."
+  },
+  "C:\\eclipse_workspace\\GOptimum\\src": {
+    "location": "C:\\eclipse_workspace\\GOptimum\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\eclipse_workspace\\GOptimum\\src\u0027. Skipped."
+  },
+  "C:\\eclipse_workspace\\ia_math": {
+    "location": "C:\\eclipse_workspace\\ia_math",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\eclipse_workspace\\ia_math\u0027. Skipped."
+  },
+  "D:\\Пользователи\\ALX\\eclipse_workspace\\GOptimum\\src": {
+    "location": "D:\\Пользователи\\ALX\\eclipse_workspace\\GOptimum\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Пользователи\\ALX\\eclipse_workspace\\GOptimum\\src\u0027. Skipped."
+  },
+  "D:\\Пользователи\\ALX\\eclipse_workspace\\ia_math": {
+    "location": "D:\\Пользователи\\ALX\\eclipse_workspace\\ia_math",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Пользователи\\ALX\\eclipse_workspace\\ia_math\u0027. Skipped."
+  }
+}

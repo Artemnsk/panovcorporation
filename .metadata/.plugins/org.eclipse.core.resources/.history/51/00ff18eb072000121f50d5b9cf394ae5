@@ -1,0 +1,27 @@
+package Population;
+
+import java.util.Vector;
+import Myvector.Myvector;
+
+public class Population{
+	double[][] elements;
+	double[] weights;
+	int quantity;
+	
+	public Population(){
+		//
+	}
+	
+	public Population(int i_quantity, String option){
+		switch(option){
+		case "random":
+			for(int i = 0; i < i_quantity; i++){
+				for(int j = 0; j < 3; i++){
+					elements[i][j] = Math.random();
+				}
+				elements[i] = Myvector.normalize(elements[i]);
+			}
+			break;
+		}
+	}
+}

@@ -1,0 +1,14 @@
+package Population;
+
+public class Population{
+	double[] elements;
+	double[] weights;
+	
+	public Population(String option){
+		switch(option){
+		case "random":
+			
+			break;
+		}
+	}
+}

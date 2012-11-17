@@ -1,0 +1,31 @@
+-classpath
+'d:/carrot2/carrotsearch.labs/junit-benchmarks/target/classes;C:/Users/dweiss/.m2/repository/com/h2database/h2/1.2.127/h2-1.2.127.jar;C:/Users/dweiss/.m2/repository/junit/junit/4.7/junit-4.7.jar'
+-encoding
+'UTF-8'
+-overview
+'d:/carrot2/carrotsearch.labs/junit-benchmarks/src/main/javadoc/overview.html'
+-protected
+-sourcepath
+'d:/carrot2/carrotsearch.labs/junit-benchmarks/src/main/java;d:/carrot2/carrotsearch.labs/junit-benchmarks/src/main/javadoc'
+-author
+-bottom
+'Copyright &#169; 2011 <a href="http://www.carrotsearch.com">Carrot Search s.c.</a>. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'d:/carrot2/carrotsearch.labs/junit-benchmarks/target/apidocs'
+-docencoding
+'UTF-8'
+-docfilessubdirs
+-doctitle
+'JUnitBenchmarks v0.3.0 API                 Documentation'
+-header
+'<div id=\'header\'><a class=\'logo\' target=\'_top\' href=\'http://labs.carrotsearch.com\'><img src=\'resources/logo.png\'></a>JUnitBenchmarks v0.3.0 <br>API Documentation</div>'
+-linkoffline
+'http://download.oracle.com/javase/6/docs/api' 'd:/carrot2/carrotsearch.labs/junit-benchmarks/target/javadoc-bundle-options'
+-stylesheetfile
+'d:/carrot2/carrotsearch.labs/junit-benchmarks/src/main/javadoc/stylesheet.css'
+-use
+-version
+-windowtitle
+'JUnitBenchmarks v0.3.0 API                 Documentation                 (JavaDoc)'

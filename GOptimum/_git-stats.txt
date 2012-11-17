@@ -1,0 +1,5 @@
+find . -iname "*.java" -exec cat {} \; | wc
+
+git diff --oneline --stat --numstat  HEAD~5
+git log --oneline --stat
+git shortlog -s
