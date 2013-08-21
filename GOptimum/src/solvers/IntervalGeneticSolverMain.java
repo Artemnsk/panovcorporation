@@ -49,14 +49,15 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 		//int k = 0;
 		// Workaround: to count first function value
 		// TODO: FIXME!
-		iterate(1);
+		iterate(3);
+		System.out.println(IGS.getOptimumValue().lo());
 		System.out.println("\n\n START\n");
-		int k = 0;
-		do {
-			k++;
-			System.out.println(k + " Iteration 2 LEVEL");
-			my_iteration(1, searchIterate, goodIterate);
-		} while (status == RUNNING);
+		int iteration_num = 0;
+		/*do {
+			iteration_num++;
+			System.out.println(iteration_num + " Iteration 1 LEVEL " + IGS.getOptimumValue().wid());
+			my_iteration(0, searchIterate, goodIterate);
+		} while (status == RUNNING);*/
 	}
 	
 	private void my_iteration(int level, int searchIterate, int goodIterate){
@@ -73,21 +74,21 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 			//double[] bestCoefficients = {1, 0, 0};
 			
 			double prevEstimate = IGS.getOptimumValue().wid();
-			double prevBoxes = IGS.getOptimumArea().length;
+			//double prevBoxes = IGS.getOptimumArea().length;
 			double fitness = 0;
 			
 			k = 0;
 			for(int i = 0; i < goodIterate; i++){
 				k++;
-				//System.out.println("\t\t" + k + " Iteration 0 LEVEL");
+				//System.out.println("\t\t" + k + " good Iteration 0 LEVEL");
 				this.status = iterate(goodIterate);
 			}
 			
 			//normalize?
 			double curEstimate = IGS.getOptimumValue().wid();
-			double curBoxes = IGS.getOptimumArea().length;
+			//double curBoxes = IGS.getOptimumArea().length;
 			double successfulness1 = 1 - curEstimate/prevEstimate;
-			double successfulness2 = curEstimate - prevEstimate;
+			/*double successfulness2 = curEstimate - prevEstimate;
 			double successfulness3 = prevBoxes > curBoxes ? prevBoxes - curBoxes : 0;
 			double sum = successfulness1 + successfulness2 + successfulness3;
 			successfulness1 /= sum;
@@ -95,8 +96,8 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 			successfulness3 /= sum;
 			double x = (population[1]).getCurrentCoeff(0);
 			double y = (population[1]).getCurrentCoeff(1);
-			double z = (population[1]).getCurrentCoeff(2);		
-			fitness = successfulness1*x + successfulness2*y + successfulness3*z;
+			double z = (population[1]).getCurrentCoeff(2);		*/
+			fitness = successfulness1;//*x + successfulness2*y + successfulness3*z;
 			population[true_level].updateFitness(bestCoefficients, fitness);
 
 			double[] crosCoefficients = (population[0]).crossBestWithRnd();
@@ -105,14 +106,14 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 			k = 0;
 			for(int i = 0; i < searchIterate; i++){
 				k++;
-				//System.out.println("\t\t" + k + " Iteration 0 LEVEL");
+				//System.out.println("\t\t" + k + " search Iteration 0 LEVEL");
 				this.status = iterate(searchIterate);
 			}
 			
 			double curEstimate_2 = IGS.getOptimumValue().wid();
-			double curBoxes_2 = IGS.getOptimumArea().length;
+			//double curBoxes_2 = IGS.getOptimumArea().length;
 			double successfulness1_2 = 1 - curEstimate_2/curEstimate;
-			double successfulness2_2 = curEstimate_2 - curEstimate;
+			/*double successfulness2_2 = curEstimate_2 - curEstimate;
 			double successfulness3_2 = curBoxes > curBoxes_2 ? curBoxes - curBoxes_2 : 0;
 			sum = successfulness1_2 + successfulness2_2 + successfulness3_2;
 			successfulness1_2 /= sum;
@@ -120,14 +121,14 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 			successfulness3_2 /= sum;
 			x = (population[1]).getCurrentCoeff(0);
 			y = (population[1]).getCurrentCoeff(1);
-			z = (population[1]).getCurrentCoeff(2);		
-			fitness = successfulness1_2*x + successfulness2_2*y + successfulness3_2*z;
+			z = (population[1]).getCurrentCoeff(2);*/		
+			fitness = successfulness1_2;//*x + successfulness2_2*y + successfulness3_2*z;
 			if ((population[true_level]).isBetterThanWorst(fitness)) {
 				(population[true_level]).replaceWorstWithThis(crosCoefficients, fitness);
 				System.out.println("\t\t Level 0 Worst replaced with CROSS");
 			}
 			
-		}else if(true_level == 1){
+		}/*else if(true_level == 2){
 			
 			double spaceBefore = 1;
 			double[] bestCoefficients = population[true_level].getBest();
@@ -163,7 +164,7 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 				(population[true_level]).replaceWorstWithThis(crosCoefficients, fitness);
 				System.out.println("\t Level 1 Worst replaced with CROSS");
 			}
-		}		
+		}	*/	
 	}
 
 	/*private double iterateWithThisCoefficients(double[] coefficientsToUse, int iterationNumber) {
@@ -199,10 +200,10 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 		return successfulness;
 	}*/
 	
-	protected OptimizationStatus iterate(int i_quantity) {
+	protected OptimizationStatus iterate(int i_quantity){
 		IGS.stopCriterion.setMaxIterations(i_quantity);
 		IGS.stopCriterion.reset();
-		IGS.solve();	
+		IGS.solve();
 		return IGS.myStatus;
 	}
 	

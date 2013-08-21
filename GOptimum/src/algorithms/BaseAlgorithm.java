@@ -138,7 +138,7 @@ public class BaseAlgorithm implements Algorithm {
 		 * calculated function extensions can contain infinity. what to do in such case?
 		 */
 		boolean shouldTerminate = processInfinityInExtensions(newBoxes);
-		
+		//System.out.println("leader " + workList.getLeadingBox().getFunctionValue().lo() + ", " + workList.getLeadingBox().getFunctionValue().hi() + "\n");
 		if ( shouldTerminate || isDone(workBox) )
 			return STOP_CRITERION_SATISFIED;
 		return RUNNING;

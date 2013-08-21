@@ -17,9 +17,9 @@ public class IntervalGeneticSolverTest {
 	protected double alpha = 1, betta = 0, gamma = 0;
 
 //	@Ignore
-	@Test(timeout=12*1000) //12 sec
+	@Test(timeout=6*1000) //12 sec
 	public final void test1() {
-		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
+		Algorithm a = new IntervalGeneticSolver(alpha, betta, gamma);
 		final int dim = rnd.nextInt(9)+1;
 		RealInterval area = new RealInterval(-rnd.nextInt(70), rnd.nextInt(200));
 		result = test.f_DeJong_Zero(a, dim, area);

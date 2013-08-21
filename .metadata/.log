@@ -4763,3 +4763,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY org.eclipse.ui 4 4 2013-03-19 18:43:05.588
 !MESSAGE Unable to find Action Set: org.eclipse.emf.facet.common.editor.actionSet
+!SESSION 2013-08-21 09:39:58.462 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 4 2013-08-21 12:06:19.948
+!MESSAGE Unable to find Action Set: org.eclipse.emf.facet.common.editor.actionSet

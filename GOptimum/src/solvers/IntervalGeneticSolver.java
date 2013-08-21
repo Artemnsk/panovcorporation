@@ -60,7 +60,7 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		this.gamma = element[2];
 	}
 	
-	public double calcFitFunction(Box b) {
+	public double calcFitFunction(Box b){
 		// Simple Fit function:
 		// F = a*F.lo + b*wid(F) + c*wid(b)
 		
@@ -72,16 +72,17 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		for (int i = 0; i < dim; i++){
 			F += gamma * b.getInterval(i).wid();
 		}
-		//F /= dim; // normalize, otherwise more dimensions would mean more weight of the box's size.
+		F /= dim; // normalize, otherwise more dimensions would mean more weight of the box's size.
 		
-		F += betta * (getLowBoundMaxValue() - b.getFunctionValue().lo());
+		//F += betta * (getLowBoundMaxValue() - b.getFunctionValue().lo());
+		
+		//F = b.getFunctionValue().lo();
 		
 		//F -= alpha * b.getFunctionValue().lo();
 		assert(!Double.isNaN(F));
-		//System.out.println(alpha + " " + betta + " " + gamma + "\n");
 		return F; 		
 	}
-	
+	/*
 	protected OptimizationStatus iterate() {
 		Box[] newBoxes;
 
@@ -145,5 +146,5 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		if (Double.isInfinite(extension.lo()) || Double.isInfinite(extension.hi()))
 			return true;
 		return false;
-	}
+	}*/
 }
