@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="237" key="DIALOG_WIDTH"/>
-		<item value="128" key="DIALOG_Y_ORIGIN"/>
-		<item value="569" key="DIALOG_X_ORIGIN"/>
-		<item value="357" key="DIALOG_HEIGHT"/>
-		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
+		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+		<item value="380" key="DIALOG_HEIGHT"/>
+		<item value="680" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="" key="selection"/>
+		<item value="12" key="selection"/>
 		<list key="findhistory">
-			<item value="CHANGE"/>
-			<item value="IntervalGeneticSolverMain(alpha, betta, gamma)"/>
-			<item value="IntervalGeneticSolverMain"/>
-			<item value="isDone"/>
-			<item value="solve"/>
-			<item value="rese"/>
-			<item value="stat"/>
-			<item value="stopCri"/>
+			<item value="180"/>
+			<item value="6"/>
+			<item value="ASDD"/>
+			<item value="ASD"/>
+			<item value="12"/>
+			<item value="120"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Bisection_SrtL_CBtC_AllEqS()"/>
-			<item value="IntervalGeneticSolver"/>
+			<item value="12"/>
+			<item value="180"/>
+			<item value="6"/>
+			<item value="120"/>
 		</list>
 	</section>
 </section>

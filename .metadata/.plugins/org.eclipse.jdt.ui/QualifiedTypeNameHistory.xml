@@ -5,7 +5,4 @@
 <fullyQualifiedTypeName name="solvers.IntervalGeneticSolver"/>
 <fullyQualifiedTypeName name="worklists.AscendingLowBoundBoxComparator"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
-<fullyQualifiedTypeName name="java.util.Vector"/>
-<fullyQualifiedTypeName name="Myvector.Myvector"/>
-<fullyQualifiedTypeName name="Population.Population"/>
 </qualifiedTypeNameHistroy>

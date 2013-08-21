@@ -196,6 +196,7 @@ public abstract class WorkList {
 		} else {
 			if (logging) System.out.println("     -> Box " + box.getFunctionValue() + " FAILD the screening.");
 		}
+		addChecked(box);
 	}
 	/*
 	 * receives a new set of boxes and their estimation of the optimum

@@ -16,9 +16,9 @@ public class GeneticFitComparator implements Comparator<Box> {
 		assert(b1.getDimension() == b2.getDimension());
 		double fit1 = iGA.calcFitFunction(b1);
 		double fit2 = iGA.calcFitFunction(b2);
-		if (fit1 == fit2)
-			return ( new AscendingLowBoundBoxComparator() ).compare(b1, b2);
-		if (fit1 < fit2)
+		//if (fit1 == fit2)
+			//return ( new AscendingLowBoundBoxComparator() ).compare(b1, b2);
+		if (fit1 <= fit2)
 			return +1;
 		else
 			return -1;

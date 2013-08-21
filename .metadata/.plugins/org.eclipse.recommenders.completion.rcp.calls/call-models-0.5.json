@@ -14,15 +14,5 @@
     "location": "C:\\eclipse_workspace\\ia_math",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027C:\\eclipse_workspace\\ia_math\u0027. Skipped."
-  },
-  "D:\\Пользователи\\ALX\\eclipse_workspace\\GOptimum\\src": {
-    "location": "D:\\Пользователи\\ALX\\eclipse_workspace\\GOptimum\\src",
-    "status": "UNRESOLVED",
-    "error": "No class path info available for \u0027D:\\Пользователи\\ALX\\eclipse_workspace\\GOptimum\\src\u0027. Skipped."
-  },
-  "D:\\Пользователи\\ALX\\eclipse_workspace\\ia_math": {
-    "location": "D:\\Пользователи\\ALX\\eclipse_workspace\\ia_math",
-    "status": "UNRESOLVED",
-    "error": "No class path info available for \u0027D:\\Пользователи\\ALX\\eclipse_workspace\\ia_math\u0027. Skipped."
   }
 }

@@ -669,20 +669,20 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
 	at org.eclipse.recommenders.internal.rcp.repo.UpdateModelIndexJob.run(UpdateModelIndexJob.java:55) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.200.v20120521-2346.jar:na]
-2012-08-31 17:16:21,224 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
-2012-08-31 17:16:21,583 [pool-5-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
-2012-08-31 17:16:21,645 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
-org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.SimpleFSDirectory@D:\Пользователи\ALX\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1590cb4: files: []
+2013-03-17 17:24:12,172 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-17 17:24:12,383 [pool-4-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-17 17:24:12,664 [main] ERROR o.e.r.i.r.repo.ModelRepositoryIndex - Failed to open search index.
+org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.apache.lucene.store.SimpleFSDirectory@C:\eclipse_workspace\.metadata\.plugins\org.eclipse.recommenders.rcp\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1cb7ce7: files: []
 	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:712) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
 	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:75) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
 	at org.apache.lucene.index.IndexReader.open(IndexReader.java:462) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
 	at org.apache.lucene.index.IndexReader.open(IndexReader.java:308) ~[org.apache.lucene.core_3.5.0.v20120319-2345.jar:3.5.0 1204988 - simon - 2011-11-22 14:46:51]
 	at org.eclipse.recommenders.internal.rcp.repo.ModelRepositoryIndex.open(ModelRepositoryIndex.java:64) ~[org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
 	at org.eclipse.recommenders.internal.rcp.wiring.RecommendersModule$ServicesInitializer.<init>(RecommendersModule.java:353) [org.eclipse.recommenders.rcp_1.0.0.v20120612-2305-b156.jar:na]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_06]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
-	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_06]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_17]
 	at com.google.inject.internal.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
 	at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:85) [com.google.inject_3.0.0.v201203062045.jar:na]
 	at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:254) [com.google.inject_3.0.0.v201203062045.jar:na]
@@ -701,12 +701,12 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 	at com.google.inject.Guice.createInjector(Guice.java:72) [com.google.inject_3.0.0.v201203062045.jar:na]
 	at org.eclipse.recommenders.injection.InjectionService.getInjector(InjectionService.java:47) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
 	at org.eclipse.recommenders.injection.ExtensionFactory.<init>(ExtensionFactory.java:28) [org.eclipse.recommenders.injection_1.0.0.v20120612-2305-b156.jar:na]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_06]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_06]
-	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_06]
-	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_06]
-	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_06]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [na:1.7.0_17]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_17]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [na:1.7.0_17]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [na:1.7.0_17]
+	at java.lang.Class.newInstance0(Unknown Source) [na:1.7.0_17]
+	at java.lang.Class.newInstance(Unknown Source) [na:1.7.0_17]
 	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
 	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
 	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243) [org.eclipse.equinox.registry_3.5.200.v20120522-1841.jar:na]
@@ -738,29 +738,16 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
 	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180) [org.eclipse.osgi_3.8.0.v20120529-1548.jar:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_06]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_06]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_06]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_06]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.7.0_17]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_17]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.7.0_17]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.7.0_17]
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
-2012-08-31 17:16:23,169 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
-2012-09-02 12:32:16,783 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
-2012-09-03 22:27:26,246 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
-2012-09-18 18:43:59,103 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-09-26 23:09:29,307 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-09-26 23:09:30,056 [Worker-6] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
-2012-09-26 23:09:31,148 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-09-26 23:09:31,195 [Worker-6] WARN  o.e.r.i.rcp.repo.ModelRepository - 'remote-models (http://download.eclipse.org/recommenders/models/juno/, releases+snapshots)' did not send ETAG header for 'org.eclipse.recommenders:index:zip:0.0.0'.
-2012-10-01 12:13:18,298 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-01 12:13:20,741 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-01 12:36:02,818 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-01 12:36:04,094 [pool-10-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-01 12:36:05,158 [pool-12-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-06 13:11:39,225 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-06 18:25:07,323 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-21 01:09:12,164 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-27 14:17:49,278 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-27 15:02:34,383 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
-2012-10-28 12:05:22,801 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 4
+2013-03-17 17:24:14,056 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-17 17:54:05,745 [pool-10-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-17 17:54:06,831 [pool-12-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-17 17:54:07,643 [pool-14-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-18 17:49:48,716 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-03-19 19:33:22,211 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
