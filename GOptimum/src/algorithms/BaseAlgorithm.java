@@ -122,12 +122,12 @@ public class BaseAlgorithm implements Algorithm {
 		
 		newBoxes = splitter.splitIt(workBox);
 		assert(newBoxes.length > 1);
-		
+
 		calculateIntervalExtensions(newBoxes);
 		if (logging)
-			for (Box b : newBoxes)
+			for (Box b : newBoxes){
 				System.out.println("  => " + b);
-	
+			}
 		workList.add(newBoxes);
 /*		if (last)
 			if (debug_catchLastOptimaBox()) {
@@ -138,7 +138,7 @@ public class BaseAlgorithm implements Algorithm {
 		 * calculated function extensions can contain infinity. what to do in such case?
 		 */
 		boolean shouldTerminate = processInfinityInExtensions(newBoxes);
-		//System.out.println("leader " + workList.getLeadingBox().getFunctionValue().lo() + ", " + workList.getLeadingBox().getFunctionValue().hi() + "\n");
+		//System.out.println("leader " + workBox.getFunctionValue().lo() + ", " + workList.getLeadingBox().getFunctionValue().hi() + "\n");
 		if ( shouldTerminate || isDone(workBox) )
 			return STOP_CRITERION_SATISFIED;
 		return RUNNING;

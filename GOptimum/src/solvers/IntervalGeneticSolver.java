@@ -7,6 +7,7 @@ import static algorithms.OptimizationStatus.RUNNING;
 import static algorithms.OptimizationStatus.STOP_CRITERION_SATISFIED;
 import net.sourceforge.interval.ia_math.RealInterval;
 import core.Box;
+import splitters.AllSidesEquallySplitter;
 import splitters.BiggestSideEquallySplitter;
 import splitters.Splitter;
 import worklists.GeneticFitComparator;
@@ -17,7 +18,8 @@ import choosers.CurrentBestChooser;
 import algorithms.BaseAlgorithm;
 import algorithms.OptimizationStatus;
 import algorithms.StopCriterion;
-	
+import worklists.AscendingLowBoundBoxComparator;
+
 public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolver {
 	private double alpha, betta, gamma;
 	public OptimizationStatus myStatus;
@@ -29,7 +31,9 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		this.alpha = alpha;
 		this.betta = betta;
 		this.gamma = gamma;
+
 		
+		//AscendingLowBoundBoxComparator fitComparator = new AscendingLowBoundBoxComparator();
 		GeneticFitComparator fitComparator = new GeneticFitComparator(this);
 		WorkList workList = new SortedWorkList(fitComparator);
 		Chooser chooser  = new CurrentBestChooser(workList);
@@ -73,11 +77,12 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 			F += gamma * b.getInterval(i).wid();
 		}
 		F /= dim; // normalize, otherwise more dimensions would mean more weight of the box's size.
-		
+		F = -b.getFunctionValue().lo();
 		//F += betta * (getLowBoundMaxValue() - b.getFunctionValue().lo());
-		
-		//F = b.getFunctionValue().lo();
-		
+		// WHY? F = this.getOptimumValue().hi() - b.getFunctionValue().lo();
+		//F = getLowBoundMaxValue() - b.getFunctionValue().lo(); NEGATIVE ??
+		//if(F<0) System.out.println("F less than 0" + "\n");
+		//System.out.println(this.getLowBoundMaxValue() + "-" + b.getFunctionValue().lo() + "=" + F + "\n");
 		//F -= alpha * b.getFunctionValue().lo();
 		assert(!Double.isNaN(F));
 		return F; 		

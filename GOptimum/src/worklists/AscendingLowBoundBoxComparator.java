@@ -5,7 +5,7 @@ import java.util.Comparator;
 import core.Box;
 
 // minimal function estimation goes first 
-//class AscendingLowBoundBoxComparator implements Comparator<Box> {
+public class AscendingLowBoundBoxComparator implements Comparator<Box> {
     /**
      * Compare two Boxes for order.
      * @return -1 if box1 has lower lo bound of function value than box2,
@@ -14,9 +14,6 @@ import core.Box;
                 otherwise TreeSet will treat all such boxes as equal items
                 and will keep only one of them!!!!!!!!!!  
      */
-	/*AscendingLowBoundBoxComparator(){
-		super();
-	}
 	@Override
     public int compare(Box b1, Box b2) {
 		assert(b1.getDimension() == b2.getDimension());
@@ -51,16 +48,4 @@ import core.Box;
     	}
         return (lo1 < lo2) ? -1 : 1;
     }
-}*/
-
-/*
- * max low-values goes first
- * can be useful when we tries to remove such boxes by value
- */
-class DescendingLowBoundBoxComparator extends AscendingLowBoundBoxComparator {
-	@Override
-    public int compare(Box b1, Box b2) {
-		return super.compare(b2, b1);
-	}
 }
-

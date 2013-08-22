@@ -35,7 +35,7 @@ public class SortedWorkList extends WorkList {
 		// automatically via our comparator
 		collection.add(box);
 	}
-
+	
 	@Override
 	protected Box getLeadingBoxInternal() {
 		if (collection.size() == 0)
@@ -55,6 +55,7 @@ public class SortedWorkList extends WorkList {
 	}
 	@Override
 	public int removeRejectedBoxes() {
+		System.out.println("Sorted worklist rejecting\n");
 		int size = size();
 		if (size == 0)
 			return 0;
@@ -66,6 +67,7 @@ public class SortedWorkList extends WorkList {
 			clearAll(threshold);
 			return size;
 		}
+		
 		// otherwise...
 		// find where to cut
 		Box mark = new Box(leader.getDimension(), new RealInterval(0)); // boxes with wider sides goes first in the order. this box sizes are 0

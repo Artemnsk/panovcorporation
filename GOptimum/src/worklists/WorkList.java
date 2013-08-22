@@ -218,6 +218,15 @@ public abstract class WorkList {
 		return b;
 	}
 	
+	/*public double getMax(){
+		double max = 0;
+		for(int i = 0; i < this.size(); i++){
+			this.
+			max = max > this.extractInternal(i).getFunctionValue().hi() ? max : this.extractInternal(i).getFunctionValue().hi();
+		}
+		return max;
+	}*/
+	
 	protected Box extractInternal(int n) {
 		// default implementation
 		// we do not have a random access in Collection interface
@@ -292,7 +301,6 @@ public abstract class WorkList {
 		int was = collection.size();
 		int removed = removeRejected3();
 		screener.resetStatistics();
-		
 		if (logging) System.out.println("WorkList:  -- Cleaned. Was: " + was + ", removed: " + removed + 
 				", now: " + collection.size());
 		return removed;
