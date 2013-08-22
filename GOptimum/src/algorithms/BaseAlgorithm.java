@@ -9,7 +9,7 @@ import functions.FunctionNEW;
 import static algorithms.OptimizationStatus.*;
 
 public class BaseAlgorithm implements Algorithm {
-
+	
 	protected Chooser chooser;    // will somehow select next victim to be cut
 	protected Splitter splitter;  // will somehow cut the box selected by the Chooser 
 	protected FunctionNEW targetFunction; // the function which optimum we are searching for 

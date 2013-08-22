@@ -4900,3 +4900,43 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY org.eclipse.ui 4 4 2013-08-22 09:52:49.599
 !MESSAGE Unable to find Action Set: org.eclipse.emf.facet.common.editor.actionSet
+
+!ENTRY org.eclipse.core.resources 4 2 2013-08-22 15:46:34.808
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding cannot be cast to org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.manageSyntheticAccessIfNecessary(QualifiedNameReference.java:824)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.analyseCode(QualifiedNameReference.java:223)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.analyseCode(QualifiedNameReference.java:172)
+	at org.eclipse.jdt.internal.compiler.ast.ArrayReference.analyseCode(ArrayReference.java:49)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.analyseCode(Expression.java:227)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.analyseCode(MessageSend.java:70)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.analyseCode(MessageSend.java:135)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.analyseCode(MethodDeclaration.java:110)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.internalAnalyseCode(TypeDeclaration.java:710)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.analyseCode(TypeDeclaration.java:255)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.analyseCode(CompilationUnitDeclaration.java:111)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:776)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 4 75 2013-08-22 15:46:35.001
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.jdt.core 4 75 2013-08-22 15:46:35.001
+!MESSAGE Errors running builder 'Java Builder' on project 'GOptimum'.
+!STACK 0
+java.lang.ClassCastException: org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding cannot be cast to org.eclipse.jdt.internal.compiler.lookup.SourceTypeBinding
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.manageSyntheticAccessIfNecessary(QualifiedNameReference.java:824)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.analyseCode(QualifiedNameReference.java:223)
+	at org.eclipse.jdt.internal.compiler.ast.QualifiedNameReference.analyseCode(QualifiedNameReference.java:172)
+	at org.eclipse.jdt.internal.compiler.ast.ArrayReference.analyseCode(ArrayReference.java:49)
+	at org.eclipse.jdt.internal.compiler.ast.Expression.analyseCode(Expression.java:227)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.analyseCode(MessageSend.java:70)
+	at org.eclipse.jdt.internal.compiler.ast.MessageSend.analyseCode(MessageSend.java:135)
+	at org.eclipse.jdt.internal.compiler.ast.MethodDeclaration.analyseCode(MethodDeclaration.java:110)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.internalAnalyseCode(TypeDeclaration.java:710)
+	at org.eclipse.jdt.internal.compiler.ast.TypeDeclaration.analyseCode(TypeDeclaration.java:255)
+	at org.eclipse.jdt.internal.compiler.ast.CompilationUnitDeclaration.analyseCode(CompilationUnitDeclaration.java:111)
+	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:776)
+	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
+	at java.lang.Thread.run(Unknown Source)

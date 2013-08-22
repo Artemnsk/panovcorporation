@@ -33,7 +33,7 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 		population[0] = new Population(10);
 		population[1] = new Population(10);
 		population[2] = new Population(10);
-
+System.out.println(population[0]);
 		this.searchIterate = searchIterate;
 		this.goodIterate = goodIterate;
 		this.IGS = new IntervalGeneticSolver(alpha, betta, gamma);
@@ -49,15 +49,16 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 		//int k = 0;
 		// Workaround: to count first function value
 		// TODO: FIXME!
-		iterate(3);
-		System.out.println(IGS.getOptimumValue().lo());
+		iterate(1);
+		//System.out.println(IGS.getOptimumValue().lo());
 		System.out.println("\n\n START\n");
 		int iteration_num = 0;
-		/*do {
+		do {
 			iteration_num++;
-			System.out.println(iteration_num + " Iteration 1 LEVEL " + IGS.getOptimumValue().wid());
+			if(iteration_num % 1000 == 0) System.out.println(iteration_num + ":  " + population[0].bestObjectToString() + "\n");
 			my_iteration(0, searchIterate, goodIterate);
-		} while (status == RUNNING);*/
+			
+		} while (status == RUNNING);
 	}
 	
 	private void my_iteration(int level, int searchIterate, int goodIterate){
@@ -99,8 +100,18 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 			double z = (population[1]).getCurrentCoeff(2);		*/
 			fitness = successfulness1;//*x + successfulness2*y + successfulness3*z;
 			population[true_level].updateFitness(bestCoefficients, fitness);
-
-			double[] crosCoefficients = (population[0]).crossBestWithRnd();
+			
+			double[] crosCoefficients;
+			double geneticRandom = Math.random();
+			if(geneticRandom > 0.5){
+				crosCoefficients = (population[0]).crossBestWithRnd();
+			}else if(geneticRandom < 0.05){
+				System.out.println("ideal Element was generated\n");
+				crosCoefficients = (population[0]).idealElement();
+			}else{
+				System.out.println("strange Element was generated\n");
+				crosCoefficients = (population[0]).strangeElement();
+			}
 			population[true_level].setCurrent(crosCoefficients);
 			
 			k = 0;

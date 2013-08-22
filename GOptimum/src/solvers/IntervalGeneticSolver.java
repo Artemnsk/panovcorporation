@@ -77,7 +77,8 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 			F += gamma * b.getInterval(i).wid();
 		}
 		F /= dim; // normalize, otherwise more dimensions would mean more weight of the box's size.
-		F = -b.getFunctionValue().lo();
+		F = -b.getFunctionValue().lo()*alpha;
+		F += Math.random()*(betta+gamma)*1000;
 		//F += betta * (getLowBoundMaxValue() - b.getFunctionValue().lo());
 		// WHY? F = this.getOptimumValue().hi() - b.getFunctionValue().lo();
 		//F = getLowBoundMaxValue() - b.getFunctionValue().lo(); NEGATIVE ??
@@ -87,7 +88,7 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		assert(!Double.isNaN(F));
 		return F; 		
 	}
-	/*
+	
 	protected OptimizationStatus iterate() {
 		Box[] newBoxes;
 
@@ -151,5 +152,5 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		if (Double.isInfinite(extension.lo()) || Double.isInfinite(extension.hi()))
 			return true;
 		return false;
-	}*/
+	}
 }

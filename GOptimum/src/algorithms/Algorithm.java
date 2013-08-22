@@ -13,6 +13,7 @@ public interface Algorithm {
 	 * One should call getOptimumValue() or getOptimumArea()
 	 * to get minimum value or its arguments.
 	 */
+
 	public void solve();
 	public RealInterval getOptimumValue();
 	public Box[] getOptimumArea();

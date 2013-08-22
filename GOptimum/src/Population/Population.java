@@ -33,12 +33,29 @@ public class Population {
 	
 	public Population(int quantity) {
 		// generateInitialRandomPopulation
-		for(int i = 0; i < quantity; i++)
+		Coefficients a = new Coefficients();
+		Coefficients b = new Coefficients();
+		System.out.println("A: " + a.toString() + "\nB: " + b + "\n");
+		for(int i = 0; i < quantity; i++){
 			population.add(new Coefficients()); // default constructor for Coefficients initialize it to a random value
+		}
 		current = population.first();
 	}
 	public Coefficients getBestObject() {
 		return population.first();
+	}
+	
+	public String bestObjectToString() {
+		return getBestObject().toString();
+	}
+	public String toString() {
+		String str = "";
+		int i = 0;
+		for(Coefficients c : population){
+			i++;
+			str += i + ": " + c.toString() + "\n";
+		}
+		return str;
 	}
 	
 	public double getBestFitness() {
@@ -75,12 +92,21 @@ public class Population {
 		population.add(newElement);
 	}
 
+	public double[] strangeElement() {
+		return Coefficients.strange();
+	}
+	
+	public double[] idealElement() {
+		return Coefficients.ideal();
+	}
+	
 	public double[] crossBestWithRnd() {
 		double[] best = getBest();
 		double[] rand = getRandom();
 		double[] cros = Coefficients.cross(best, rand);
 		return cros;
 	}
+	
 	public void updateFitness(double[] coefficients, double fitness) {
 		boolean removed = false;
 		for (Coefficients c : population) {
@@ -108,6 +134,15 @@ class Coefficients implements Comparable {
 		return coefficients[i];
 	}
 	
+	public String toString(){
+		String str = "(";
+		for(int i=0; i< size; i++){
+			str += getElement(i) + ", ";
+		}
+		str += ")";
+		return str;
+	}
+	
 	public double getFitness(){
 		return fitness;
 	}
@@ -130,6 +165,20 @@ class Coefficients implements Comparable {
 		tmp.cross(d2);
 		return tmp.coefficients;
 	}
+	
+	public static double[] strange() {
+		Coefficients strange = new Coefficients();
+		return strange.coefficients;
+	}
+	
+	public static double[] ideal() {
+		Coefficients ideal = new Coefficients();
+		int n = (int)(Math.floor(ideal.size*Math.random()));
+		for(int i=0; i<ideal.size; i++){
+			ideal.coefficients[i] = i == n ? 1 : 0;
+		}
+		return ideal.coefficients;
+	}
 
 	private void normalize() {
 		double sum = 0;
@@ -149,8 +198,14 @@ class Coefficients implements Comparable {
 	@Override
 	public int compareTo(Object obj) {
 		Coefficients that = (Coefficients)obj;
-		if (that == null) 
+		if (that == null)
 			return -1;
-		return Double.compare(that.fitness, this.fitness); // descending order
+		int double_comparison = Double.compare(that.fitness, this.fitness);
+		//(+1) to not switching forever?
+		//ALSO Double.compare() is not enough as vectors with same weight will be equaled
+		if(double_comparison == 0 && that != this){
+			return +1;
+		}
+		return double_comparison; // descending order
 	}
 }

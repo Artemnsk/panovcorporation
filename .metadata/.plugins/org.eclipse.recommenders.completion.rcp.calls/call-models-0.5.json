@@ -14,5 +14,10 @@
     "location": "C:\\eclipse_workspace\\ia_math",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027C:\\eclipse_workspace\\ia_math\u0027. Skipped."
+  },
+  "C:\\eclipse_workspace\\GOptimum\\tests": {
+    "location": "C:\\eclipse_workspace\\GOptimum\\tests",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\eclipse_workspace\\GOptimum\\tests\u0027. Skipped."
   }
 }
