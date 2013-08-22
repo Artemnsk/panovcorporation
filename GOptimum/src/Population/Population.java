@@ -89,7 +89,7 @@ public class Population {
 		Coefficients newElement = new Coefficients(element, fitness);
 		boolean removed = population.remove(getWorstObject());
 		assert (removed);
-		population.add(newElement);
+		if(population.add(newElement) == false) System.out.println("not added");
 	}
 
 	public double[] strangeElement() {
@@ -98,6 +98,10 @@ public class Population {
 	
 	public double[] idealElement() {
 		return Coefficients.ideal();
+	}
+	
+	public double[] idealElement(int n) {
+		return Coefficients.ideal(n);
 	}
 	
 	public double[] crossBestWithRnd() {
@@ -174,6 +178,14 @@ class Coefficients implements Comparable {
 	public static double[] ideal() {
 		Coefficients ideal = new Coefficients();
 		int n = (int)(Math.floor(ideal.size*Math.random()));
+		for(int i=0; i<ideal.size; i++){
+			ideal.coefficients[i] = i == n ? 1 : 0;
+		}
+		return ideal.coefficients;
+	}
+	
+	public static double[] ideal(int n) {
+		Coefficients ideal = new Coefficients();
 		for(int i=0; i<ideal.size; i++){
 			ideal.coefficients[i] = i == n ? 1 : 0;
 		}

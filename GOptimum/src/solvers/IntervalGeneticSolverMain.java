@@ -64,7 +64,6 @@ System.out.println(population[0]);
 	private void my_iteration(int level, int searchIterate, int goodIterate){
 
 		int true_level = level;
-		int k = 0;
 		
 		if(true_level == 0){
 			
@@ -78,18 +77,16 @@ System.out.println(population[0]);
 			//double prevBoxes = IGS.getOptimumArea().length;
 			double fitness = 0;
 			
-			k = 0;
 			for(int i = 0; i < goodIterate; i++){
-				k++;
 				//System.out.println("\t\t" + k + " good Iteration 0 LEVEL");
 				this.status = iterate(goodIterate);
 			}
 			
 			//normalize?
 			double curEstimate = IGS.getOptimumValue().wid();
-			//double curBoxes = IGS.getOptimumArea().length;
 			double successfulness1 = 1 - curEstimate/prevEstimate;
-			/*double successfulness2 = curEstimate - prevEstimate;
+			/*double curBoxes = IGS.getOptimumArea().length;
+			double successfulness2 = curEstimate - prevEstimate;
 			double successfulness3 = prevBoxes > curBoxes ? prevBoxes - curBoxes : 0;
 			double sum = successfulness1 + successfulness2 + successfulness3;
 			successfulness1 /= sum;
@@ -105,18 +102,17 @@ System.out.println(population[0]);
 			double geneticRandom = Math.random();
 			if(geneticRandom > 0.5){
 				crosCoefficients = (population[0]).crossBestWithRnd();
-			}else if(geneticRandom < 0.05){
-				System.out.println("ideal Element was generated\n");
-				crosCoefficients = (population[0]).idealElement();
+			}else if(geneticRandom < 0.4){
+				crosCoefficients = (population[0]).idealElement(0);
+				//System.out.println("ideal Element was generated: " + crosCoefficients[0] + " " + crosCoefficients[1] + " " + crosCoefficients[2] + " " + "\n");
 			}else{
-				System.out.println("strange Element was generated\n");
+				//System.out.println("strange Element was generated\n");
 				crosCoefficients = (population[0]).strangeElement();
 			}
 			population[true_level].setCurrent(crosCoefficients);
+			IGS.changeCoefficients(crosCoefficients);
 			
-			k = 0;
 			for(int i = 0; i < searchIterate; i++){
-				k++;
 				//System.out.println("\t\t" + k + " search Iteration 0 LEVEL");
 				this.status = iterate(searchIterate);
 			}
@@ -136,7 +132,7 @@ System.out.println(population[0]);
 			fitness = successfulness1_2;//*x + successfulness2_2*y + successfulness3_2*z;
 			if ((population[true_level]).isBetterThanWorst(fitness)) {
 				(population[true_level]).replaceWorstWithThis(crosCoefficients, fitness);
-				System.out.println("\t\t Level 0 Worst replaced with CROSS");
+				System.out.println("Level 0 Worst replaced with CROSS");
 			}
 			
 		}/*else if(true_level == 2){

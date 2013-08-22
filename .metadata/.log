@@ -4940,3 +4940,13 @@ java.lang.ClassCastException: org.eclipse.jdt.internal.compiler.lookup.BinaryTyp
 	at org.eclipse.jdt.internal.compiler.Compiler.process(Compiler.java:776)
 	at org.eclipse.jdt.internal.compiler.ProcessTaskManager.run(ProcessTaskManager.java:137)
 	at java.lang.Thread.run(Unknown Source)
+!SESSION 2013-08-22 16:04:13.401 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0_21
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 4 4 2013-08-22 16:04:36.568
+!MESSAGE Unable to find Action Set: org.eclipse.emf.facet.common.editor.actionSet
