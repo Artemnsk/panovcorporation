@@ -9,12 +9,16 @@ import java.util.TreeSet;
  * each record from the population is a pair: the object itself and its fit value
  */
 public class Population {
-	private TreeSet<Coefficients> population = new TreeSet<>();
+	public TreeSet<Coefficients> population = new TreeSet<>();
 	private static Random rnd = new Random();
 	private Coefficients current;
 	
 	public double getCurrentCoeff(int i){
 		return current.getElement(i);
+	}
+	
+	public boolean add(double[] coef, double fitness){	
+		return population.add(new Coefficients(coef, fitness));
 	}
 	
 	static { // for debug -- so we could set fixed seed 
@@ -33,9 +37,6 @@ public class Population {
 	
 	public Population(int quantity) {
 		// generateInitialRandomPopulation
-		Coefficients a = new Coefficients();
-		Coefficients b = new Coefficients();
-		System.out.println("A: " + a.toString() + "\nB: " + b + "\n");
 		for(int i = 0; i < quantity; i++){
 			population.add(new Coefficients()); // default constructor for Coefficients initialize it to a random value
 		}
@@ -213,11 +214,13 @@ class Coefficients implements Comparable {
 		if (that == null)
 			return -1;
 		int double_comparison = Double.compare(that.fitness, this.fitness);
+		//System.out.println("double " + double_comparison + "\n");
 		//(+1) to not switching forever?
 		//ALSO Double.compare() is not enough as vectors with same weight will be equaled
-		if(double_comparison == 0 && that != this){
-			return +1;
-		}
+		if(double_comparison == 0)
+			for(int i = 0; i < size; i++)
+				if(this.coefficients[i] != that.coefficients[i]) return -1;
+		
 		return double_comparison; // descending order
 	}
 }

@@ -252,6 +252,7 @@ public abstract class WorkList {
 		}
 		return new RealInterval(loBorder, hiBorder);
 	}
+	
 	public final Box[] getOptimumArea() {
 		assert(collection.size() > 0);
 		removeRejectedBoxes();
@@ -299,7 +300,7 @@ public abstract class WorkList {
 	// first variant of list cleaning.
 	// Do not call this function manually! Use @removeRejectedBoxes()@ instead
 	@SuppressWarnings("unused")
-	private int removeRejected1() {	
+	private int removeRejected1() {
 		int removedCount = 0;
 
 		Iterator<Box> it = collection.iterator(); Box b;

@@ -105,7 +105,7 @@ public class TestHarness {
     					Math.abs(optValue.lo() - checkValue) < delta	) 
     			{
     				System.out.println(" > Found " + optValue + ", whiche check = " + checkValue + " (delta < " + delta + ")");
-    			} 
+    			}
     		}else {
 	    		System.out.println(" > Wrong optimum value was found!");
 	    		System.out.println(" > Found: " + optValue + ", it doesn't contain " + checkValue);

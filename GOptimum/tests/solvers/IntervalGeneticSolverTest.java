@@ -14,18 +14,18 @@ public class IntervalGeneticSolverTest {
 	protected TestHarness test = new TestHarness();
 	protected TestData result = null;
 	
-	protected double alpha = 1, betta = 0, gamma = 0;
+	protected double alpha = 0.9, betta = 0.5, gamma = 0.5;
 
 //	@Ignore
-	@Test(timeout=2000*1000) //12 sec
+	@Test(timeout=12*1000) //12 sec
 	public final void test1() {
 		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
 		final int dim = rnd.nextInt(9)+1;
 		RealInterval area = new RealInterval(-rnd.nextInt(70), rnd.nextInt(200));
 		result = test.f_DeJong_Zero(a, dim, area);
 		//System.out.println(a.population[0].toString());
-	}/*
-	@Test(timeout=12*1000) //12 sec
+	}
+	@Test(timeout=120*1000) //12 sec
 	public final void test1p() {
 		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
 		final int dim = 2;
@@ -52,17 +52,17 @@ public class IntervalGeneticSolverTest {
 	}
 	
 //	@Ignore
-	@Test(timeout=12*1000) //12 sec
+	@Test(timeout=1200*1000) //12 sec
 	public final void test4() {
 		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
 		RealInterval area = new RealInterval(-1, 1);
 		result = test.f_SixHumpCamelBack(a, area);
 	}
-	@Test(timeout=12*1000) //12 sec
+	@Test(timeout=120*1000) //12 sec
 	public final void test5() {
-		int dim = 7;
+		int dim = 7;//7
 		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
-		RealInterval area = new RealInterval(-1000, 2000);
+		RealInterval area = new RealInterval(-100, 200);
 		result = test.f_RosenbrockGn(a, dim, area);
 	}
 	@Test(timeout=30*1000) //30 sec
@@ -71,5 +71,5 @@ public class IntervalGeneticSolverTest {
 		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
 		RealInterval area = new RealInterval(-10, 10);
 		result = test.f_RosenbrockGn(a, dim, area);
-	}*/
+	}
 }

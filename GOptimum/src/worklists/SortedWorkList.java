@@ -41,6 +41,10 @@ public class SortedWorkList extends WorkList {
 		if (collection.size() == 0)
 			return null;
 		Box b = collection.iterator().next(); // first element in a sorted list
+		for(Box c : collection){
+			//if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
+			if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
+		}
 		assert(collection.contains(b));
 		return b;
 	}
@@ -55,7 +59,6 @@ public class SortedWorkList extends WorkList {
 	}
 	@Override
 	public int removeRejectedBoxes() {
-		System.out.println("Sorted worklist rejecting\n");
 		int size = size();
 		if (size == 0)
 			return 0;

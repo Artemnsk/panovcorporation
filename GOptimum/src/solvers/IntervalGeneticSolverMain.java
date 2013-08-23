@@ -33,7 +33,7 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 		population[0] = new Population(10);
 		population[1] = new Population(10);
 		population[2] = new Population(10);
-System.out.println(population[0]);
+//System.out.println(population[0]);
 		this.searchIterate = searchIterate;
 		this.goodIterate = goodIterate;
 		this.IGS = new IntervalGeneticSolver(alpha, betta, gamma);
@@ -55,7 +55,7 @@ System.out.println(population[0]);
 		int iteration_num = 0;
 		do {
 			iteration_num++;
-			if(iteration_num % 1000 == 0) System.out.println(iteration_num + ":  " + population[0].bestObjectToString() + "\n");
+			if(iteration_num % 100 == 0) System.out.println(population[0].population.size() + "  iter: " + iteration_num + ":  " + population[0].bestObjectToString() + "\n");
 			my_iteration(0, searchIterate, goodIterate);
 			
 		} while (status == RUNNING);
@@ -66,25 +66,20 @@ System.out.println(population[0]);
 		int true_level = level;
 		
 		if(true_level == 0){
-			
 			double[] bestCoefficients = population[true_level].getBest();
 			population[true_level].setCurrent(bestCoefficients);
-			
 			IGS.changeCoefficients(bestCoefficients);
 			//double[] bestCoefficients = {1, 0, 0};
 			
-			double prevEstimate = IGS.getOptimumValue().wid();
+			double firstEstimate = IGS.getOptimumValue().wid();
 			//double prevBoxes = IGS.getOptimumArea().length;
 			double fitness = 0;
 			
-			for(int i = 0; i < goodIterate; i++){
-				//System.out.println("\t\t" + k + " good Iteration 0 LEVEL");
-				this.status = iterate(goodIterate);
-			}
+			this.status = iterate(goodIterate);
 			
 			//normalize?
-			double curEstimate = IGS.getOptimumValue().wid();
-			double successfulness1 = 1 - curEstimate/prevEstimate;
+			double middleEstimate = IGS.getOptimumValue().wid();
+			double successfulness1 = firstEstimate/middleEstimate;
 			/*double curBoxes = IGS.getOptimumArea().length;
 			double successfulness2 = curEstimate - prevEstimate;
 			double successfulness3 = prevBoxes > curBoxes ? prevBoxes - curBoxes : 0;
@@ -95,14 +90,13 @@ System.out.println(population[0]);
 			double x = (population[1]).getCurrentCoeff(0);
 			double y = (population[1]).getCurrentCoeff(1);
 			double z = (population[1]).getCurrentCoeff(2);		*/
-			fitness = successfulness1;//*x + successfulness2*y + successfulness3*z;
+			fitness = successfulness1/goodIterate;//*x + successfulness2*y + successfulness3*z;
 			population[true_level].updateFitness(bestCoefficients, fitness);
-			
 			double[] crosCoefficients;
 			double geneticRandom = Math.random();
-			if(geneticRandom > 0.5){
+			if(geneticRandom > 0.3){
 				crosCoefficients = (population[0]).crossBestWithRnd();
-			}else if(geneticRandom < 0.4){
+			}else if(geneticRandom < 0.1){
 				crosCoefficients = (population[0]).idealElement(0);
 				//System.out.println("ideal Element was generated: " + crosCoefficients[0] + " " + crosCoefficients[1] + " " + crosCoefficients[2] + " " + "\n");
 			}else{
@@ -112,14 +106,11 @@ System.out.println(population[0]);
 			population[true_level].setCurrent(crosCoefficients);
 			IGS.changeCoefficients(crosCoefficients);
 			
-			for(int i = 0; i < searchIterate; i++){
-				//System.out.println("\t\t" + k + " search Iteration 0 LEVEL");
-				this.status = iterate(searchIterate);
-			}
+			this.status = iterate(searchIterate);
 			
-			double curEstimate_2 = IGS.getOptimumValue().wid();
+			double lastEstimate = IGS.getOptimumValue().wid();
 			//double curBoxes_2 = IGS.getOptimumArea().length;
-			double successfulness1_2 = 1 - curEstimate_2/curEstimate;
+			double successfulness1_2 = middleEstimate/lastEstimate;
 			/*double successfulness2_2 = curEstimate_2 - curEstimate;
 			double successfulness3_2 = curBoxes > curBoxes_2 ? curBoxes - curBoxes_2 : 0;
 			sum = successfulness1_2 + successfulness2_2 + successfulness3_2;
@@ -129,10 +120,10 @@ System.out.println(population[0]);
 			x = (population[1]).getCurrentCoeff(0);
 			y = (population[1]).getCurrentCoeff(1);
 			z = (population[1]).getCurrentCoeff(2);*/		
-			fitness = successfulness1_2;//*x + successfulness2_2*y + successfulness3_2*z;
+			fitness = successfulness1_2/searchIterate;//*x + successfulness2_2*y + successfulness3_2*z;
 			if ((population[true_level]).isBetterThanWorst(fitness)) {
 				(population[true_level]).replaceWorstWithThis(crosCoefficients, fitness);
-				System.out.println("Level 0 Worst replaced with CROSS");
+					//System.out.println("added\n");
 			}
 			
 		}/*else if(true_level == 2){
