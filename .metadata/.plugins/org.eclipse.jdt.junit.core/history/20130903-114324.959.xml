@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IntervalGeneticSolverTest" project="GOptimum" tests="8" started="8" failures="0" errors="2" ignored="0">
+  <testsuite name="solvers.IntervalGeneticSolverTest" time="1237.151">
+    <testcase name="test1" classname="solvers.IntervalGeneticSolverTest" time="0.001"/>
+    <testcase name="test1p" classname="solvers.IntervalGeneticSolverTest" time="0.0"/>
+    <testcase name="test11" classname="solvers.IntervalGeneticSolverTest" time="0.0"/>
+    <testcase name="test2" classname="solvers.IntervalGeneticSolverTest" time="11.857">
+      <error>java.lang.Exception: test timed out after 12000 milliseconds&#13;
+	at worklists.SortedWorkList.getLeadingBoxInternal(SortedWorkList.java:44)&#13;
+	at worklists.WorkList.getLeadingBox(WorkList.java:143)&#13;
+	at worklists.WorkList.getOptimumValue(WorkList.java:248)&#13;
+	at algorithms.BaseAlgorithm.getOptimumValue(BaseAlgorithm.java:171)&#13;
+	at solvers.IntervalGeneticSolverMain.my_iteration(IntervalGeneticSolverMain.java:74)&#13;
+	at solvers.IntervalGeneticSolverMain.solve(IntervalGeneticSolverMain.java:59)&#13;
+	at testharness.TestHarness.solveFunction(TestHarness.java:89)&#13;
+	at testharness.TestHarness.f_Price5_Zero(TestHarness.java:47)&#13;
+	at solvers.IntervalGeneticSolverTest.test2(IntervalGeneticSolverTest.java:45)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:62)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="test3" classname="solvers.IntervalGeneticSolverTest" time="0.358"/>
+    <testcase name="test4" classname="solvers.IntervalGeneticSolverTest" time="1200.108">
+      <error>java.lang.Exception: test timed out after 1200000 milliseconds&#13;
+	at worklists.SortedWorkList.getLeadingBoxInternal(SortedWorkList.java:44)&#13;
+	at worklists.WorkList.getLeadingBox(WorkList.java:143)&#13;
+	at choosers.CurrentBestChooser.extractNext(CurrentBestChooser.java:19)&#13;
+	at worklists.WorkList.extractNext(WorkList.java:160)&#13;
+	at solvers.IntervalGeneticSolver.iterate(IntervalGeneticSolver.java:97)&#13;
+	at algorithms.BaseAlgorithm.solve(BaseAlgorithm.java:103)&#13;
+	at solvers.IntervalGeneticSolverMain.iterate(IntervalGeneticSolverMain.java:204)&#13;
+	at solvers.IntervalGeneticSolverMain.my_iteration(IntervalGeneticSolverMain.java:109)&#13;
+	at solvers.IntervalGeneticSolverMain.solve(IntervalGeneticSolverMain.java:59)&#13;
+	at testharness.TestHarness.solveFunction(TestHarness.java:89)&#13;
+	at testharness.TestHarness.f_SixHumpCamelBack(TestHarness.java:73)&#13;
+	at solvers.IntervalGeneticSolverTest.test4(IntervalGeneticSolverTest.java:59)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)&#13;
+	at java.lang.reflect.Method.invoke(Unknown Source)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:62)&#13;
+&#13;
+</error>
+    </testcase>
+    <testcase name="test5" classname="solvers.IntervalGeneticSolverTest" time="17.607"/>
+    <testcase name="test5_1" classname="solvers.IntervalGeneticSolverTest" time="7.219"/>
+  </testsuite>
+</testrun>

@@ -89,8 +89,10 @@ public class Population {
 	public void replaceWorstWithThis(double[] element, double fitness) {
 		Coefficients newElement = new Coefficients(element, fitness);
 		boolean removed = population.remove(getWorstObject());
+		/*for(Coefficients c: population)
+			if(c.fitness == newElement.fitness) System.out.println("Equal ");*/
 		assert (removed);
-		if(population.add(newElement) == false) System.out.println("not added");
+		if(population.add(newElement) == false) System.out.println("not added replaceWorth");
 	}
 
 	public double[] strangeElement() {
@@ -213,14 +215,18 @@ class Coefficients implements Comparable {
 		Coefficients that = (Coefficients)obj;
 		if (that == null)
 			return -1;
+		
 		int double_comparison = Double.compare(that.fitness, this.fitness);
+		if(double_comparison != 0) return double_comparison;
+		if(that != this) return -1;
+		return 0;
 		//System.out.println("double " + double_comparison + "\n");
 		//(+1) to not switching forever?
 		//ALSO Double.compare() is not enough as vectors with same weight will be equaled
-		if(double_comparison == 0)
-			for(int i = 0; i < size; i++)
-				if(this.coefficients[i] != that.coefficients[i]) return -1;
-		
-		return double_comparison; // descending order
+		//if(double_comparison == 0) if(that != this) return -1;
+			//for(int i = 0; i < size; i++)
+				//if(this.coefficients[i] != that.coefficients[i]) return -1;
+		//if(that != this) return -1;
+		//return double_comparison; // descending order
 	}
 }

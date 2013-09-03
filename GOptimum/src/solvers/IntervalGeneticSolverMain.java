@@ -94,9 +94,9 @@ public class IntervalGeneticSolverMain extends BaseAlgorithm implements Interval
 			population[true_level].updateFitness(bestCoefficients, fitness);
 			double[] crosCoefficients;
 			double geneticRandom = Math.random();
-			if(geneticRandom > 0.3){
+			if(geneticRandom > 0.1){
 				crosCoefficients = (population[0]).crossBestWithRnd();
-			}else if(geneticRandom < 0.1){
+			}else if(geneticRandom < 0.05){
 				crosCoefficients = (population[0]).idealElement(0);
 				//System.out.println("ideal Element was generated: " + crosCoefficients[0] + " " + crosCoefficients[1] + " " + crosCoefficients[2] + " " + "\n");
 			}else{

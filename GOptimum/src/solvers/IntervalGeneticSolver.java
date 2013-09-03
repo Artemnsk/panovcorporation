@@ -42,7 +42,7 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		setLogic(workList, chooser, splitter);
 		
 		// the algorithm is ready, but
-		// area and function are  still not set. 
+		// area and function are  still not set.
 		// further call of init(Function f, Box area) is expected
 	}
 	
@@ -74,7 +74,7 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		final int dim = b.getDimension();
 		double F = 0;
 		for (int i = 0; i < dim; i++){
-			F += gamma * b.getInterval(i).wid();
+			//F += gamma * b.getInterval(i).wid();
 		}
 		F /= dim; // normalize, otherwise more dimensions would mean more weight of the box's size.
 		F += -b.getFunctionValue().lo()*alpha;
@@ -86,7 +86,7 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		//System.out.println(this.getLowBoundMaxValue() + "-" + b.getFunctionValue().lo() + "=" + F + "\n");
 		//F -= alpha * b.getFunctionValue().lo();
 		assert(!Double.isNaN(F));
-		return F; 		
+		return F;
 	}
 	
 	protected OptimizationStatus iterate() {

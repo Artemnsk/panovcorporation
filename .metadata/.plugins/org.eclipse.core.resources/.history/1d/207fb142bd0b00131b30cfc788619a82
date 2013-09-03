@@ -1,0 +1,229 @@
+package Population;
+
+import java.util.Iterator;
+import java.util.Random;
+import java.util.TreeSet;
+
+/*
+ * represents a population.
+ * each record from the population is a pair: the object itself and its fit value
+ */
+public class Population {
+	public TreeSet<Coefficients> population = new TreeSet<>();
+	private static Random rnd = new Random();
+	private Coefficients current;
+	
+	public double getCurrentCoeff(int i){
+		return current.getElement(i);
+	}
+	
+	public boolean add(double[] coef, double fitness){	
+		return population.add(new Coefficients(coef, fitness));
+	}
+	
+	static { // for debug -- so we could set fixed seed 
+		long seed = 0;
+		seed = System.currentTimeMillis(); 
+		rnd.setSeed(seed);
+	}
+	
+	public void setCurrent(Coefficients coeff){
+		this.current = coeff;
+	}
+	
+	public void setCurrent(double[] coeff){
+		this.current = new Coefficients(coeff, (double)1);
+	}
+	
+	public Population(int quantity) {
+		// generateInitialRandomPopulation
+		for(int i = 0; i < quantity; i++){
+			population.add(new Coefficients()); // default constructor for Coefficients initialize it to a random value
+		}
+		current = population.first();
+	}
+	public Coefficients getBestObject() {
+		return population.first();
+	}
+	
+	public String bestObjectToString() {
+		return getBestObject().toString();
+	}
+	public String toString() {
+		String str = "";
+		int i = 0;
+		for(Coefficients c : population){
+			i++;
+			str += i + ": " + c.toString() + "\n";
+		}
+		return str;
+	}
+	
+	public double getBestFitness() {
+		return getBestObject().getFitness();
+	}
+	
+	public double[] getBest() {
+		return getBestObject().coefficients;
+	}
+	
+	private Coefficients getWorstObject() {
+		return population.last();
+	}
+	public double[] getWorst() {
+		return getWorstObject().coefficients;
+	}
+	
+	public double[] getRandom() {
+		int i = rnd.nextInt(population.size());
+		Iterator<Coefficients> it = population.iterator();
+		while (i-- > 0)
+			it.next();
+		return it.next().coefficients;
+	}
+
+	public boolean isBetterThanWorst(double fitness) {
+		return getWorstObject().fitness < fitness;
+	}
+
+	public void replaceWorstWithThis(double[] element, double fitness) {
+		Coefficients newElement = new Coefficients(element, fitness);
+		boolean removed = population.remove(getWorstObject());
+		assert (removed);
+		if(population.add(newElement) == false) System.out.println("not added");
+	}
+
+	public double[] strangeElement() {
+		return Coefficients.strange();
+	}
+	
+	public double[] idealElement() {
+		return Coefficients.ideal();
+	}
+	
+	public double[] idealElement(int n) {
+		return Coefficients.ideal(n);
+	}
+	
+	public double[] crossBestWithRnd() {
+		double[] best = getBest();
+		double[] rand = getRandom();
+		double[] cros = Coefficients.cross(best, rand);
+		return cros;
+	}
+	
+	public void updateFitness(double[] coefficients, double fitness) {
+		boolean removed = false;
+		for (Coefficients c : population) {
+			if (c.coefficients == coefficients) { // not values but reference comparison!
+				System.out.println("\t\t0_INSIDE population size: " + population.size() + "\n");
+				removed = population.remove(c);
+				if(!removed) System.out.println("NOT REMOVED " + population.size() + "\n");
+				System.out.println("\t\t1_INSIDE population size: " + population.size() + "\n");
+				assert (removed);
+				Coefficients newCoefficients = new Coefficients(coefficients, fitness);
+				population.add(newCoefficients);
+				System.out.println("\t\t2_INSIDE population size: " + population.size() + "\n");
+				break;
+			}
+		}
+		assert (removed);
+	}
+}
+
+/*
+ * Encapsulates the object and its Fit-function value
+ */
+class Coefficients implements Comparable {
+	final double[] coefficients;
+	final double fitness;
+	final int size = 3;
+	
+	public double getElement(int i){
+		return coefficients[i];
+	}
+	
+	public String toString(){
+		String str = "(";
+		for(int i=0; i< size; i++){
+			str += getElement(i) + ", ";
+		}
+		str += ")";
+		return str;
+	}
+	
+	public double getFitness(){
+		return fitness;
+	}
+	
+	public Coefficients() {
+		this.coefficients = new double[size];
+		for (int i = 0; i < size; i++)
+			coefficients[i] = Math.random();
+		normalize();		
+		fitness = 1;
+	}
+	public Coefficients(double[] coefficients, double fitness) {
+		assert coefficients.length == size;
+		this.coefficients = coefficients;
+		this.fitness = fitness;
+	}
+	
+	public static double[] cross(double[] d1, double[] d2) {
+		Coefficients tmp = new Coefficients(d1, 0);
+		tmp.cross(d2);
+		return tmp.coefficients;
+	}
+	
+	public static double[] strange() {
+		Coefficients strange = new Coefficients();
+		return strange.coefficients;
+	}
+	
+	public static double[] ideal() {
+		Coefficients ideal = new Coefficients();
+		int n = (int)(Math.floor(ideal.size*Math.random()));
+		for(int i=0; i<ideal.size; i++){
+			ideal.coefficients[i] = i == n ? 1 : 0;
+		}
+		return ideal.coefficients;
+	}
+	
+	public static double[] ideal(int n) {
+		Coefficients ideal = new Coefficients();
+		for(int i=0; i<ideal.size; i++){
+			ideal.coefficients[i] = i == n ? 1 : 0;
+		}
+		return ideal.coefficients;
+	}
+
+	private void normalize() {
+		double sum = 0;
+		for(int i = 0; i < size; i++){
+			sum += coefficients[i];
+		}
+		for(int i = 0; i < size; i++){
+			coefficients[i] /= sum;
+		}
+	}
+	private void cross(double[] c) {
+		for(int i = 0; i < size; i++){
+			coefficients[i] = (coefficients[i] + c[i])/2;
+		}
+		normalize();
+	}
+	@Override
+	public int compareTo(Object obj) {
+		Coefficients that = (Coefficients)obj;
+		if (that == null)
+			return -1;
+		int double_comparison = Double.compare(that.fitness, this.fitness);
+		//(+1) to not switching forever?
+		//ALSO Double.compare() is not enough as vectors with same weight will be equaled
+		if(double_comparison == 0)
+			for(int i=0; i < size; i++)
+				if(this.coefficients[i] != that.coefficients[i]) return -1;
+		
+		return double_comparison; // descending order
+	}
+}

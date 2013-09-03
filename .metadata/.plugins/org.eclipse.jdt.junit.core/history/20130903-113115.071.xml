@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="IntervalGeneticSolverTest" project="GOptimum" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="solvers.IntervalGeneticSolverTest" time="26.59">
+    <testcase name="test1" classname="solvers.IntervalGeneticSolverTest" time="0.0"/>
+    <testcase name="test1p" classname="solvers.IntervalGeneticSolverTest" time="0.0"/>
+    <testcase name="test11" classname="solvers.IntervalGeneticSolverTest" time="0.0"/>
+    <testcase name="test2" classname="solvers.IntervalGeneticSolverTest" time="0.279"/>
+    <testcase name="test3" classname="solvers.IntervalGeneticSolverTest" time="0.055"/>
+    <testcase name="test4" classname="solvers.IntervalGeneticSolverTest" time="24.834"/>
+    <testcase name="test5" classname="solvers.IntervalGeneticSolverTest" time="1.296"/>
+    <testcase name="test5_1" classname="solvers.IntervalGeneticSolverTest" time="0.126"/>
+  </testsuite>
+</testrun>
