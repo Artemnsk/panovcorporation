@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jre-1.0.0-call">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.recommenders.rcp/repository/jre/jre/1.0.0/jre-1.0.0-call.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

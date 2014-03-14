@@ -14,7 +14,7 @@ public class IntervalGeneticSolverTest {
 	protected TestHarness test = new TestHarness();
 	protected TestData result = null;
 	
-	protected double alpha = 0.9, betta = 0.05, gamma = 0.05;
+	protected double alpha = 1, betta = 0, gamma = 0;
 
 //	@Ignore
 	@Test(timeout=12*1000) //12 sec
