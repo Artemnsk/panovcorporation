@@ -41,10 +41,10 @@ public class SortedWorkList extends WorkList {
 		if (collection.size() == 0)
 			return null;
 		Box b = collection.iterator().next(); // first element in a sorted list
-		for(Box c : collection){
+		/*for(Box c : collection){
 			//if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
 			if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
-		}
+		}*/ //IT SHOULD BE COMMENTED? AS OUR LEAD COULD BE NOT WITH LOWEST BOUND
 		assert(collection.contains(b));
 		return b;
 	}
@@ -63,7 +63,7 @@ public class SortedWorkList extends WorkList {
 		if (size == 0)
 			return 0;
 		double threshold = screener.getLowBoundMaxValue();
-		Box leader = getLeadingBoxInternal(); // it can't be null, we already checked the size
+		Box leader = getBoxWithLowerBoundValue(); // SHOULD BE SO?
 		
 		// 'remove all' case
 		if (!screener.checkByValue(leader) ) {
