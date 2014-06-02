@@ -14,7 +14,7 @@ public class IntervalGeneticSolverTest {
 	protected TestHarness test = new TestHarness();
 	protected TestData result = null;
 	
-	protected double alpha = 1, betta = 0, gamma = 0;
+	protected double alpha = 0.9, betta = 0.05, gamma = 0.05;
 
 //	@Ignore
 	@Test(timeout=12*1000) //12 sec
@@ -38,7 +38,7 @@ public class IntervalGeneticSolverTest {
 		final int dim = rnd.nextInt(9)+1;
 		result = test.f_DeJong_NotSim(a, dim);
 	}
-	@Test(timeout=12*1000) //12 sec
+	@Test(timeout=12*100000) //12 sec
 	public final void test2() {
 		Algorithm a = new IntervalGeneticSolverMain(alpha, betta, gamma);
 		RealInterval area = new RealInterval(-1000, 2000);

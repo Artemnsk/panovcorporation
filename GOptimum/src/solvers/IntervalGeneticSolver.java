@@ -74,7 +74,7 @@ public class IntervalGeneticSolver extends BaseAlgorithm implements IntervalSolv
 		final int dim = b.getDimension();
 		double F = 0;
 		for (int i = 0; i < dim; i++){
-			//F += gamma * b.getInterval(i).wid();
+			F += b.getInterval(i).wid()*gamma;
 		}
 		F /= dim; // normalize, otherwise more dimensions would mean more weight of the box's size.
 		F += b.getFunctionValue().lo()*alpha;

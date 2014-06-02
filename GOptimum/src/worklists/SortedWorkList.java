@@ -35,16 +35,16 @@ public class SortedWorkList extends WorkList {
 		// automatically via our comparator
 		collection.add(box);
 	}
-	
 	@Override
 	protected Box getLeadingBoxInternal() {
 		if (collection.size() == 0)
 			return null;
 		Box b = collection.iterator().next(); // first element in a sorted list
-		/*for(Box c : collection){
+		for(Box c : collection){
 			//if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
-			if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
-		}*/ //IT SHOULD BE COMMENTED? AS OUR LEAD COULD BE NOT WITH LOWEST BOUND
+			if(_sorter.compare(c, b) == 1) b = c;
+		} //IT SHOULD BE COMMENTED? AS OUR LEAD COULD BE NOT WITH LOWEST BOUND
+        //System.out.println(getLowBoundMaxValue()+"  " + collection.size() + " " + b.toString() + "\n");
 		assert(collection.contains(b));
 		return b;
 	}

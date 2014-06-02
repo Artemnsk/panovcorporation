@@ -152,10 +152,13 @@ public abstract class WorkList {
     public final Box getBoxWithLowerBoundValue() {
         if (collection.size() == 0)
             return null;
-        Box b = collection.iterator().next(); // first element in a sorted list
+        Box b = null; // first element in a sorted list
         for(Box c : collection){
             //if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
-            if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
+            if(b == null){
+                b = c;
+            }
+            if(b.getFunctionValue().lo() > c.getFunctionValue().lo() && screener.checkByValue(c)) b = c;
         }
         assert(collection.contains(b));
         return b;
