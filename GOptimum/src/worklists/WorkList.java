@@ -145,7 +145,22 @@ public abstract class WorkList {
 		return lead;
 	}
 	protected abstract Box getLeadingBoxInternal();
-	
+
+    /*
+     * Get box with lowest bound value. It's not lead !
+     */
+    public final Box getBoxWithLowerBoundValue() {
+        if (collection.size() == 0)
+            return null;
+        Box b = collection.iterator().next(); // first element in a sorted list
+        for(Box c : collection){
+            //if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
+            if(b.getFunctionValue().lo() > c.getFunctionValue().lo()) b = c;
+        }
+        assert(collection.contains(b));
+        return b;
+    }
+
 	/*
 	 * extracts next box. which box will be extracted depends on
 	 * what Chooser is used.
@@ -245,7 +260,7 @@ public abstract class WorkList {
 	public final RealInterval getOptimumValue() {
 		assert (collection.size() != 0);
 		double hiBorder = screener.getLowBoundMaxValue();
-		double loBorder = getLeadingBox().getFunctionValue().lo();
+		double loBorder = getBoxWithLowerBoundValue().getFunctionValue().lo(); //CHANGED - NOT LEAD!
 		if (hiBorder < loBorder) { // actual for parallel algorithms -- value 
 									// of rejection-by-value criterion can be improved in parallel algorithms
 			loBorder = hiBorder;			

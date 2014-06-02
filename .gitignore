@@ -1,4 +1,6 @@
 # @Nikita Maybe it makes sense to include ia_math here?
 # .metadata
 # junit-benchmarks-0.3.0
+/.idea
+/out
 
