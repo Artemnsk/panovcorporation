@@ -193,7 +193,7 @@ public class BaseAlgorithm implements Algorithm {
 	 * separated in another class.
 	 */
 	protected boolean isDone(Box workBox) {
-		return stopCriterion.isDone(workBox);
+		return stopCriterion.isDone(workBox, workList.getBoxWithLowerBoundValue().getFunctionValue().lo());
 	}
 
 	/*

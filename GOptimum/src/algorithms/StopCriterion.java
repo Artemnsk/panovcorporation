@@ -27,7 +27,7 @@ public class StopCriterion {
 	public void reset() {
 		iteration = 0;
 	}
-	public boolean isDone(Box b) {
+	public boolean isDone(Box b, double low_value) {
 		// 1. iterations
 		// time or iterations counter is obligatory to protect from infinite iterations
 		if (++iteration > maxIterations) {
@@ -36,7 +36,8 @@ public class StopCriterion {
 		}
 		
 		// 2. F precision (this is better than "F width")
-		if (algorithm.getLowBoundMaxValue() - b.getFunctionValue().lo() < getFMaxPrecision()) {
+        // HERE ???
+		if (algorithm.getLowBoundMaxValue() - low_value/*b.getFunctionValue().lo()*/ < getFMaxPrecision()) {
 			if(logging) System.out.println(" = Iterations is done: getFMaxPrecision = " + getFMaxPrecision());
 			return true;
 		}
